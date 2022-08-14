@@ -24,7 +24,7 @@ class HomeworkTest {
     private final Homework homework = new Homework();
 
     @Nested
-    class FiveDaysLaborWeek {
+    class fiveDaysLaborWeek {
 
         private final List<DayOfWeek> workdays = List.of(DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY, DayOfWeek.THURSDAY, DayOfWeek.FRIDAY);
 
@@ -62,7 +62,7 @@ class HomeworkTest {
     }
 
     @Nested
-    class ThreeDaysLaborWeek {
+    class threeDaysLaborWeek {
 
         private final List<DayOfWeek> workdays = List.of(DayOfWeek.MONDAY, DayOfWeek.TUESDAY, DayOfWeek.WEDNESDAY);
 

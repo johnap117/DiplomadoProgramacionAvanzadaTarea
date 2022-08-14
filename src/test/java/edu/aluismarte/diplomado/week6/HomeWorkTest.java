@@ -62,7 +62,7 @@ class HomeWorkTest {
     @ParameterizedTest
     @MethodSource("edu.aluismarte.diplomado.week6.HomeWorkTest#provideRandomInterest")
     void formDataInterest(String Interes) {
-        assertEquals(true, homeWork.formValidation(false, true, Interes, 8.5, 0));
+        assertEquals(8.5, homeWork.formValidation(false, true, Interes, 8.5, 0));
     }
 
     @ParameterizedTest

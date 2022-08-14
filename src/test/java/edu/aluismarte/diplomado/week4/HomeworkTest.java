@@ -5,8 +5,6 @@ import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
 
 import java.io.File;
-import java.io.IOException;
-import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.nio.file.Files;
 
@@ -58,7 +56,7 @@ public class HomeworkTest {
     }
 
     @Test
-    void multOperationTest() throws Exception {
+    void multiOperationTest() throws Exception {
         StringWriter stringWriter = new StringWriter();
         homework.calculateAndSave(Operation.MULT, 4.0, 4.0, file);
         assertEquals("Result is: 16.0", stringWriter.toString());
